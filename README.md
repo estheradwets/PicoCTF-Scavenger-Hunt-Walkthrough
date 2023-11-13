@@ -1,6 +1,5 @@
 # PicoCTF Scavenger Hunt Walkthrough
-
- A straightforward guide to tackle the PicoCTF Scavenger Hunt. Get step-by-step solutions to challenges, decode flags, and boost your cybersecurity know-how. Perfect for all skill levels.
+A straightforward guide to tackle the PicoCTF Scavenger Hunt. Get step-by-step solutions to challenges, decode flags, and boost your cybersecurity know-how. Perfect for all skill levels.
 
 ## Overview
 Points: 50
@@ -13,5 +12,7 @@ Hint on the CTF Challenge: There is some interesting information hidden around t
 You should have enough hints to find the files, don't run a brute forcer.
 
 ## Getting Down To Business
+When you click on the link provided, it leads you to a plain simple and boring website. 
+To figure out where to start, you right click on the page to be able to view the source code. 
 
 
