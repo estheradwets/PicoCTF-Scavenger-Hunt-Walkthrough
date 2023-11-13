@@ -121,6 +121,7 @@ text-align: center;
 ```
 
 Looking closely, there is another comment at the end of the document that reveals the second part of the flag - /_ CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 _/-
+
 Alternatively, you can access the css file by adding /mycss.css to the link provided.
 Next, we can check out the JS by clicking on the link provided in the source code, or replacing mycss.css with myjs.js on the link provided.. The JS file code is as follows:
 
@@ -148,4 +149,14 @@ window.onload = function() {
 
 /* How can I keep Google from indexing my website?
 ```
-
+For this part, I googled how to keep Google from indexing a website. 
+I found out that a robots.txt file used mainly to avoid overloading your site with requests; it is not a mechanism for keeping a web page out of Google. To keep a web page out of Google, block indexing with noindex or password-protect the page.
+Knowing this, I added robots.txt on the link provided, then searched on my browser. 
+Here is what I found: 
+```
+User-agent: *
+Disallow: /index.html
+# Part 3: t_0f_pl4c
+# I think this is an apache server... can you Access the next flag?
+```
+We are getting closer to capturing the full flag. 
