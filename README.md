@@ -65,7 +65,7 @@ And Bravo!The HTML comment at the end of the document gives us the first part of
 
 Next, we are going to look into the files within the HTML. The first linked document is mycss.css. On opening the file, you get the following styling sheet.
 
-<!-- 
+<!-->
 div.container {
 width: 100%;
 }
@@ -116,8 +116,8 @@ text-align: center;
 #tabintro { background-color: #ccc; }
 #tababout { background-color: #ccc; }
 
-/_ CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 _/-->
-
+/_ CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 _/
+-->
 
 Looking closely, there is another comment at the end of the document that reveals the second part of the flag - /_ CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 _/-
 Alternatively, you can access the css file by adding /mycss.css to the link provided.
