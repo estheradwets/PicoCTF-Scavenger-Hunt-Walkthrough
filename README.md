@@ -17,6 +17,7 @@ When you click on the link provided, it leads you to a plain simple and boring w
 To figure out where to start, you right click on the page to be able to view the page source code. 
 
 ## The Page Source Code
+
 <!doctype html>
 <html>
   <head>
