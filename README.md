@@ -3,6 +3,7 @@ A straightforward guide to tackle the PicoCTF Scavenger Hunt. Get step-by-step s
 
 ## Overview
 Points: 50
+
 Category: Web Exploitation
 
 ## Description
