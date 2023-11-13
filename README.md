@@ -22,7 +22,7 @@ When you click on the link provided, it leads you to a plain simple and boring w
 To figure out where to start, you right click on the page to be able to view the page source code.
 
 ## The Page Source Code
-
+```html
 <!doctype html>
 <html>
   <head>
@@ -59,7 +59,7 @@ To figure out where to start, you right click on the page to be able to view the
     </div>
 
   </body>
-</html>
+</html>```
 
 And Bravo!The HTML comment at the end of the document gives us the first part of the flag. <!-- Here's the first part of the flag: picoCTF{t -->
 
@@ -125,7 +125,6 @@ Looking closely, there is another comment at the end of the document that reveal
 Alternatively, you can access the css file by adding /mycss.css to the link provided.
 Next, we can check out the JS by clicking on the link provided in the source code, or replacing mycss.css with myjs.js on the link provided.. The JS file code is as follows:
 
-```js
 ```js
 function openTab(tabName,elmnt,color) {
     var i, tabcontent, tablinks;
