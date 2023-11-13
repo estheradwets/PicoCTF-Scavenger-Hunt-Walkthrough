@@ -13,10 +13,9 @@ You should have enough hints to find the files, don't run a brute forcer.
 
 ## Getting Down To Business
 When you click on the link provided, it leads you to a plain simple and boring website. 
-To figure out where to start, you right click on the page to be able to view the page source. 
+To figure out where to start, you right click on the page to be able to view the page source code. 
 
-## The Page Source
-
+## The Page Source Code
 <!doctype html>
 <html>
   <head>
@@ -54,5 +53,9 @@ To figure out where to start, you right click on the page to be able to view the
 
   </body>
 </html>
+
+And Bravo!The HTML comment at the end of the document gives us the first part of the flag. <!-- Here's the first part of the flag: picoCTF{t -->
+
+
 
 
