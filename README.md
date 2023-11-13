@@ -60,6 +60,7 @@ To figure out where to start, you right click on the page to be able to view the
 And Bravo!The HTML comment at the end of the document gives us the first part of the flag. <!-- Here's the first part of the flag: picoCTF{t -->
 
 Next, we are going to look into the files within the HTML. The first linked document is mycss.css. On opening the file, you get the following styling sheet. 
+
 div.container {
     width: 100%;
 }
@@ -113,7 +114,9 @@ p {
 /* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
 
 Looking closely, there is another comment at the end of the document that reveals the second part of the flag. 
- - /* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */- 
+ - /* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */-
+
+Alternatively, you can access the css file by adding /mycss.css provided. 
 
 
 
