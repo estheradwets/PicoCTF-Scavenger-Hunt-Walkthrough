@@ -18,7 +18,6 @@ To figure out where to start, you right click on the page to be able to view the
 
 ## The Page Source Code
 
-<!doctype html>
 <html>
   <head>
     <title>Scavenger Hunt</title>
