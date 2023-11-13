@@ -59,6 +59,61 @@ To figure out where to start, you right click on the page to be able to view the
 
 And Bravo!The HTML comment at the end of the document gives us the first part of the flag. <!-- Here's the first part of the flag: picoCTF{t -->
 
+Next, we are going to look into the files within the HTML. The first linked document is mycss.css. On opening the file, you get the following styling sheet. 
+div.container {
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+}
+
+body {
+    font-family: Roboto;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-family: "Open Sans";
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: #111;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#tabintro { background-color: #ccc; }
+#tababout { background-color: #ccc; }
+
+/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
+
+
+
 
 
 
