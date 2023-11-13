@@ -172,7 +172,13 @@ On adding this to the link and pasting on my browser, here is the result I got.
 So far so good. We have part 4 of the flag, and a very conspicous hint for the next part. Important hints we can pick here are ```my Mac``` and ```I can Store a lot of information```
 
 In Mac systems, the .DS_Store file retains settings related to the desktop's appearance, such as the arrangement of icons, among other configurations.
-So I added ```.DS_Store``` to the website link and it led me to the last part of the flag. 
+So I added ```.DS_Store``` to the website link and it led me to the last part of the flag.
+```
+Congrats! You completed the scavenger hunt. Part 5: _7a46d25d}
+```
+## The Flag!
+Putting together all parts of the flag, it then becomes: 
+```picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_7a46d25d}```
 
 
 
