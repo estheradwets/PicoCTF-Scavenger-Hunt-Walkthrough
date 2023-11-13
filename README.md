@@ -65,7 +65,8 @@ And Bravo!The HTML comment at the end of the document gives us the first part of
 
 Next, we are going to look into the files within the HTML. The first linked document is mycss.css. On opening the file, you get the following styling sheet.
 
-<!-->
+```css
+
 div.container {
 width: 100%;
 }
@@ -117,7 +118,34 @@ text-align: center;
 #tababout { background-color: #ccc; }
 
 /_ CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 _/
--->
+```
 
 Looking closely, there is another comment at the end of the document that reveals the second part of the flag - /_ CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 _/-
 Alternatively, you can access the css file by adding /mycss.css to the link provided.
+Next, we can check out the JS by clicking on the link provided in the source code, or replacing mycss.css with myjs.js on the link provided.. The JS file code is as follows:
+
+```js
+```js
+function openTab(tabName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(tabName).style.display = "block";
+    if(elmnt.style != null) {
+        elmnt.style.backgroundColor = color;
+    }
+}
+
+window.onload = function() {
+    openTab('tabintro', this, '#222');
+}
+
+/* How can I keep Google from indexing my website?
+```
+
