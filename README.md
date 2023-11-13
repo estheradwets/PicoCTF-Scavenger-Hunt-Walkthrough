@@ -169,7 +169,13 @@ On adding this to the link and pasting on my browser, here is the result I got.
 # Part 4: 3s_2_lO0k
 # I love making websites on my Mac, I can Store a lot of information there.
 ```
-So far so good. We have part 4 of the flag, and a very conspicous hint for the next part. 
+So far so good. We have part 4 of the flag, and a very conspicous hint for the next part. Important hints we can pick here are ```my Mac``` and ```I can Store a lot of information```
+
+In Mac systems, the .DS_Store file retains settings related to the desktop's appearance, such as the arrangement of icons, among other configurations.
+So I added ```.DS_Store``` to the website link and it led me to the last part of the flag. 
+
+
+
 
 
 
