@@ -150,7 +150,9 @@ window.onload = function() {
 /* How can I keep Google from indexing my website?
 ```
 For this part, I googled how to keep Google from indexing a website. 
+
 I found out that a robots.txt file used mainly to avoid overloading your site with requests; it is not a mechanism for keeping a web page out of Google. To keep a web page out of Google, block indexing with noindex or password-protect the page.
+
 Knowing this, I added robots.txt on the link provided, then searched on my browser. 
 Here is what I found: 
 ```
@@ -159,4 +161,16 @@ Disallow: /index.html
 # Part 3: t_0f_pl4c
 # I think this is an apache server... can you Access the next flag?
 ```
-We are getting closer to capturing the full flag. 
+We are getting closer to capturing the full flag. Although the previous section gives a hint for the next part of the flag, I did not use it. Instead, I used dirb (Directory buster) to find all the hidden directories. 
+I used the command: ```dirb http://mercury.picotf.net:44070/ /usr/share/wordlists/dirb/common.txt```
+I got the scanning results for a single hidden directory named ```.htaccess```
+On adding this to the link and pasting on my browser, here is the result I got. 
+```
+# Part 4: 3s_2_lO0k
+# I love making websites on my Mac, I can Store a lot of information there.
+```
+So far so good. We have part 4 of the flag, and a very conspicous hint for the next part. 
+
+
+
+
