@@ -18,8 +18,7 @@ To figure out where to start, you right click on the page to be able to view the
 
 ## The Page Source Code
 
-<html>
-  <head>
+<html><head>
     <title>Scavenger Hunt</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mycss.css">
